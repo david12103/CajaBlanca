@@ -3,7 +3,7 @@ Es posible que el codigo generado no sea completamente correcto. Si encuentra
 errores por favor reportelos en el foro (http://pseint.sourceforge.net). */
 
 // En java, el nombre de un archivo fuente debe coincidir con el nombre de la clase que contiene,
-// por lo que este archivo debería llamarse "EJERICICIO41.java."
+// por lo que este archivo deberï¿½a llamarse "EJERICICIO41.java."
 
 import java.io.*;
 import java.math.*;
@@ -14,7 +14,7 @@ public class ejercicio41Error {
 		double acumulador;
 		double contador;
 		int numero_uno;
-		int numnro_uno=0;
+		
 		// datos
 		numero_uno = 0;
 		acumulador = 0;
@@ -22,7 +22,7 @@ public class ejercicio41Error {
 		for (contador=0;contador<=19;contador++) {
 			numero_uno = (int) Math.floor(Math.random()*31);
 			if (numero_uno%5==0) {
-				acumulador = acumulador+numnro_uno;
+				acumulador = acumulador+numero_uno;
 			}
 		}
 		System.out.println("la suma es "+acumulador);
